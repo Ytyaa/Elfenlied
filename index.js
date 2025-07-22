@@ -2,15 +2,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const cards = document.querySelectorAll('.card');
 
     const activeImages = [
-        "./image/lamp-active-main.png",
-        "./image/armchair-active-main..png",
-        "./image/table-active-main..png"
+        "./images/lamp-active-main.png",
+        "./images/armchair-active-main..png",
+        "./images/table-active-main..png"
     ];
 
     const collapsedImages = [
-        "./image/lamp-main.png",
-        "./image/armchair-main.png",
-        "./image/table-main.png"
+        "./images/lamp-main.png",
+        "./images/armchair-main.png",
+        "./images/table-main.png"
     ];
 
     const titles = ["СВЕТИЛЬНИК", "КРЕСЛО", "СТОЛ"];
@@ -114,63 +114,63 @@ document.querySelectorAll('.pink-strip, .blue-strip').forEach(strip => {
 document.addEventListener("DOMContentLoaded", function () {
     const categoryData = {
         mirror: [
-            {img: "./image/mirror-1.png", title: "Kristin", desc: "Зеркало напольное"},
-            {img: "./image/mirrir-2.png", title: "Arlene", desc: "Зеркало напольное"},
-            {img: "./image/mirror-3.png", title: "Colleen", desc: "Зеркало напольное"},
-            {img: "./image/mirror-4.png", title: "coppelia", desc: "Зеркало напольное"},
-            {img: "./image/mirror-5.png", title: "artemide", desc: "Зеркало напольное"},
+            {img: "./images/mirror-1.png", title: "Kristin", desc: "Зеркало напольное"},
+            {img: "./images/mirrir-2.png", title: "Arlene", desc: "Зеркало напольное"},
+            {img: "./images/mirror-3.png", title: "Colleen", desc: "Зеркало напольное"},
+            {img: "./images/mirror-4.png", title: "coppelia", desc: "Зеркало напольное"},
+            {img: "./images/mirror-5.png", title: "artemide", desc: "Зеркало напольное"},
         ],
         lamp: [
-            {img: "./image/lamp-1.png", title: "Aubrey", desc: "Лампа настольная"},
-            {img: "./image/lamp-2.png", title: "Leslie", desc: "Лампа настольная"},
-            {img: "./image/lamp-3.png", title: "Darrell", desc: "Лампа настольная"},
-            {img: "./image/lamp-4.png", title: "coppelia", desc: "Лампа настольная"},
-            {img: "./image/lamp-5.png", title: "artemide", desc: "Лампа настольная"},
+            {img: "./images/lamp-1.png", title: "Aubrey", desc: "Лампа настольная"},
+            {img: "./images/lamp-2.png", title: "Leslie", desc: "Лампа настольная"},
+            {img: "./images/lamp-3.png", title: "Darrell", desc: "Лампа настольная"},
+            {img: "./images/lamp-4.png", title: "coppelia", desc: "Лампа настольная"},
+            {img: "./images/lamp-5.png", title: "artemide", desc: "Лампа настольная"},
         ],
         armchair: [
-            {img: "./image/armchair-1.png", title: "Kathryn", desc: "Зеркало напольное"},
-            {img: "./image/armchair-2.png", title: "Wendy", desc: "Зеркало напольное"},
-            {img: "./image/armchair-3.png", title: "Judith", desc: "Зеркало напольное"},
-            {img: "./image/armchair-4.png", title: "Jane", desc: "Зеркало напольное"},
-            {img: "./image/armchair-5.png", title: "Darlene", desc: "Зеркало напольное"},
+            {img: "./images/armchair-1.png", title: "Kathryn", desc: "Зеркало напольное"},
+            {img: "./images/armchair-2.png", title: "Wendy", desc: "Зеркало напольное"},
+            {img: "./images/armchair-3.png", title: "Judith", desc: "Зеркало напольное"},
+            {img: "./images/armchair-4.png", title: "Jane", desc: "Зеркало напольное"},
+            {img: "./images/armchair-5.png", title: "Darlene", desc: "Зеркало напольное"},
         ],
         table: [
-            {img: "./image/table-1.png", title: "Kathryn", desc: "Зеркало напольное"},
-            {img: "./image/table-2.png", title: "Wendy", desc: "Зеркало напольное"},
-            {img: "./image/table-3.png", title: "Judith", desc: "Зеркало напольное"},
-            {img: "./image/table-4.png", title: "Jane", desc: "Зеркало напольное"},
-            {img: "./image/table-5.png", title: "Darlene", desc: "Зеркало напольное"},
+            {img: "./images/table-1.png", title: "Kathryn", desc: "Зеркало напольное"},
+            {img: "./images/table-2.png", title: "Wendy", desc: "Зеркало напольное"},
+            {img: "./images/table-3.png", title: "Judith", desc: "Зеркало напольное"},
+            {img: "./images/table-4.png", title: "Jane", desc: "Зеркало напольное"},
+            {img: "./images/table-5.png", title: "Darlene", desc: "Зеркало напольное"},
         ],
     };
 
     const secondPageData = {
         mirror: [
-            {img: "./image/mirror-6.png", title: "Kristin", desc: "Зеркало напольное"},
-            {img: "./image/mirror-7.png", title: "Arlene", desc: "Зеркало напольное"},
-            {img: "./image/mirror-8.png", title: "Colleen", desc: "Зеркало напольное"},
-            {img: "./image/mirror-9.png", title: "coppelia", desc: "Зеркало напольное"},
-            {img: "./image/mirror-10.png", title: "artemide", desc: "Зеркало напольное"},
+            {img: "./images/mirror-6.png", title: "Kristin", desc: "Зеркало напольное"},
+            {img: "./images/mirror-7.png", title: "Arlene", desc: "Зеркало напольное"},
+            {img: "./images/mirror-8.png", title: "Colleen", desc: "Зеркало напольное"},
+            {img: "./images/mirror-9.png", title: "coppelia", desc: "Зеркало напольное"},
+            {img: "./images/mirror-10.png", title: "artemide", desc: "Зеркало напольное"},
         ],
         lamp: [
-            {img: "./image/lamp-6.png", title: "Aubrey", desc: "Лампа настольная"},
-            {img: "./image/lamp-7.png", title: "Leslie", desc: "Лампа настольная"},
-            {img: "./image/lamp-8.png", title: "Darrell", desc: "Лампа настольная"},
-            {img: "./image/lamp-9.png", title: "coppelia", desc: "Лампа настольная"},
-            {img: "./image/lamp-10.png", title: "artemide", desc: "Лампа настольная"},
+            {img: "./images/lamp-6.png", title: "Aubrey", desc: "Лампа настольная"},
+            {img: "./images/lamp-7.png", title: "Leslie", desc: "Лампа настольная"},
+            {img: "./images/lamp-8.png", title: "Darrell", desc: "Лампа настольная"},
+            {img: "./images/lamp-9.png", title: "coppelia", desc: "Лампа настольная"},
+            {img: "./images/lamp-10.png", title: "artemide", desc: "Лампа настольная"},
         ],
         armchair: [
-            {img: "./image/armchair-6.png", title: "Kathryn", desc: "Зеркало напольное"},
-            {img: "./image/armchair-7.png", title: "Wendy", desc: "Зеркало напольное"},
-            {img: "./image/armchair-8.png", title: "Judith", desc: "Зеркало напольное"},
-            {img: "./image/armchair-9.png", title: "Jane", desc: "Зеркало напольное"},
-            {img: "./image/armchair-10.png", title: "Darlene", desc: "Зеркало напольное"},
+            {img: "./images/armchair-6.png", title: "Kathryn", desc: "Зеркало напольное"},
+            {img: "./images/armchair-7.png", title: "Wendy", desc: "Зеркало напольное"},
+            {img: "./images/armchair-8.png", title: "Judith", desc: "Зеркало напольное"},
+            {img: "./images/armchair-9.png", title: "Jane", desc: "Зеркало напольное"},
+            {img: "./images/armchair-10.png", title: "Darlene", desc: "Зеркало напольное"},
         ],
         table: [
-            {img: "./image/table-6.png", title: "Kathryn", desc: "Зеркало напольное"},
-            {img: "./image/table-7.png", title: "Wendy", desc: "Зеркало напольное"},
-            {img: "./image/table-8.png", title: "Judith", desc: "Зеркало напольное"},
-            {img: "./image/table-9.png", title: "Jane", desc: "Зеркало напольное"},
-            {img: "./image/table-10.png", title: "Darlene", desc: "Зеркало напольное"},
+            {img: "./images/table-6.png", title: "Kathryn", desc: "Зеркало напольное"},
+            {img: "./images/table-7.png", title: "Wendy", desc: "Зеркало напольное"},
+            {img: "./images/table-8.png", title: "Judith", desc: "Зеркало напольное"},
+            {img: "./images/table-9.png", title: "Jane", desc: "Зеркало напольное"},
+            {img: "./images/table-10.png", title: "Darlene", desc: "Зеркало напольное"},
         ],
     };
 
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     el.classList.remove("inner-bottom-active");
                     el.classList.add("inner-bottom-ellipse");
                     const img = el.querySelector("img");
-                    if (img) img.src = "./image/array.svg";
+                    if (img) img.src = "./images/array.svg";
                 });
 
                 currentCategory = null;
@@ -219,14 +219,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 el.classList.remove("inner-bottom-active");
                 el.classList.add("inner-bottom-ellipse");
                 const img = el.querySelector("img");
-                if (img) img.src = "./image/array.svg";
+                if (img) img.src = "./images/array.svg";
             });
 
             ellipse.classList.add("ellipse-active");
             inner.classList.remove("inner-bottom-ellipse");
             inner.classList.add("inner-bottom-active");
             const img = inner.querySelector("img");
-            if (img) img.src = "./image/array-active.svg";
+            if (img) img.src = "./images/array-active.svg";
 
             const category = categoryKeys[index];
             currentCategory = category;
@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="price-action">
                     <p class="price">150 000 <span class="roubles">₽</span></p>
                     <div class="by-action">
-                        <img src="./image/shopping-cart.svg" alt="cart">Купить
+                        <img src="./images/shopping-cart.svg" alt="cart">Купить
                     </div>
                 </div>
             </div>
