@@ -30,17 +30,17 @@
 
 @font-face {
     font-family: 'Floreste';
-    src: url('/fonts/FloresteWavy.otf');
+    src: url('../fonts/FloresteWavy.otf');
 }
 
 @font-face {
     font-family: 'Le_Murmure-Regular_web';
-    src: url('/fonts/Le_Murmure-Regular_web.ttf');
+    src: url('../fonts/Le_Murmure-Regular_web.ttf');
 }
 
 @font-face {
     font-family: 'Euclid-Circular-Medium';
-    src: url('/fonts/Euclid Circular A Regular.ttf');
+    src: url('../fonts/Euclid Circular A Regular.ttf');
 }
 
 
